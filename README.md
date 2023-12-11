@@ -36,10 +36,6 @@ After searching for a way to resolve lighthearted disagreements with my girlfrie
 
 ## Acknowledgments
 
-This game was created as part of a project and learning experience, to learn OOP and practice reading documentation. Thanks to the Pygame community for their valuable resources.
+Thanks to the Pygame community for their valuable resources.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-Feel free to modify and distribute this code. Have fun gaming!
+Feel free to modify and distribute this code. Have fun gaming and (hopefully) not doing the dishes!!
