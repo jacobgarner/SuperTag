@@ -22,12 +22,10 @@ class Level:
             for col_index, col in enumerate(row):
                 x = col_index * TILE_SIZE
                 y = row_index * TILE_SIZE
-                # if col == '1':
-                #     PlayerOne((x, y), [self.visible_sprites, self.active_sprites], self.collision_sprites)
+    
                 if col == 'G':
                     Terrain((x, y), [self.visible_sprites, self.collision_sprites], 'G')
-                # if col == '2':
-                #     PlayerTwo((x, y), [self.visible_sprites, self.active_sprites], self.collision_sprites)
+                
                 if col == 'B':
                     Terrain((x, y), [self.visible_sprites, self.collision_sprites], 'big_plat')
                 if col == 'M':
@@ -56,10 +54,7 @@ class Level:
         if self.player_two.rect.left <= 0:
             self.player_two.rect.left = 0
 
-    # def display_score(self):
-    #     score_surf = FONT.render(f'Time remaining: {self.player_one.check_is_it()}', False, (64, 64, 64))
-    #     score_rect = score_surf.get_rect(topleft=(0, 0))
-    #     WIN.blit(score_surf,score_rect)
+
 
 
     def run(self):

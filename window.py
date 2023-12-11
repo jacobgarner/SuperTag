@@ -6,10 +6,10 @@ class Terrain(pygame.sprite.Sprite):
     def __init__(self, pos, groups, type):
         super().__init__(groups)
         if type == 'big_plat':
-            self.image = pygame.image.load('SuperTagImages/big plattform.PNG').convert_alpha()
+            self.image = pygame.image.load('SuperTagImages/bigplattform.png').convert_alpha()
             self.rect = self.image.get_rect(topleft=pos)
         elif type == 'med_plat':
-            self.image = pygame.image.load('SuperTagImages/short plattform.PNG').convert_alpha()
+            self.image = pygame.image.load('SuperTagImages/shortplattform.PNG').convert_alpha()
             self.rect = self.image.get_rect(topleft=pos)
         elif type == 'small_plat':
             self.image = pygame.image.load('SuperTagImages/plat.png')
