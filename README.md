@@ -40,4 +40,3 @@ Thanks to the Pygame community for their valuable resources.
 
 Feel free to modify and distribute this code. Have fun gaming and (hopefully) not doing the dishes!!
 
-Functions to be reused.
